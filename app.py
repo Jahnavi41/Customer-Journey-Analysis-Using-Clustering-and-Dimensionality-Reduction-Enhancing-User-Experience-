@@ -37,7 +37,6 @@ elif selected == "About":
     We used the following steps:
     - Preprocessing: Cleaned data (e.g., standardized device categories)
     - Feature Selection: Chose key behavioral features like views, check-ins, time spent
-    - PCA: Used Principal Component Analysis to reduce dimensions and improve clustering
     - Clustering: Applied K-Means with 3 clusters, validated using the elbow method
     - Built a Streamlit app to interpret and predict user segments
     """)
