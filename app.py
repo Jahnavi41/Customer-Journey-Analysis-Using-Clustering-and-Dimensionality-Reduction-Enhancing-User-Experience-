@@ -94,12 +94,6 @@ elif selected == "Clustering Interpretation":
     })
     st.dataframe(cluster_summary)
 
-    st.markdown("""
-    - 🟢 **Cluster 0**: Medium viewers and high check-in users
-    - 🔵 **Cluster 1**: Low engagement users
-    - 🟣 **Cluster 2**: Very active travelers with highest views and time spent
-    """)
-
 # Prediction App
 elif selected == "Predict":
     st.title("🔍 Customer Segment Prediction")
