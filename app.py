@@ -112,9 +112,9 @@ elif selected == "Predict":
         
         # Cluster Descriptions
         cluster_descriptions = {
-            0: "Cluster 0 - 'Frequent Travelers': These users spend considerable time on travel-related pages and have a high number of outstation check-ins. They are highly engaged users who actively follow travel content.",
-            1: "Cluster 1 - 'Occasional Travelers': These users have moderate engagement with travel pages and check-in less frequently. They tend to engage with content occasionally but are not regular users.",
-            2: "Cluster 2 - 'Low Engagement Travelers': These users have low interaction with travel pages and check-ins. Their online engagement with travel-related content is minimal."
+            0: "Cluster 0 - 'Engaged Explorers' - Frequent travelers who actively view travel content and share their outstation experiences",
+            1: "Cluster 1 - 'Casual Browsers' - Infrequent travelers with moderate interest in travel content and low platform engagement.",
+            2: "Cluster 2 - 'Dedicated Researchers' - Avid planners and high-volume content consumers who spend significant daily time researching travel."
         }
 
         # Display the cluster description based on the predicted cluster
